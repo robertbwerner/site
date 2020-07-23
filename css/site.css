@@ -106,3 +106,7 @@ footer img{
     margin-right: auto;
     margin-top: -720px;
 }
+ul{
+    color: yellow;
+    list-style-type: none;
+}
