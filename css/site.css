@@ -2,6 +2,8 @@ html{
    background-color: #5A0303; 
    position: relative;
    overflow-x: hidden; //horizontal
+   overflow-y: hidden;
+   
 }
 h1{
     color:#EADFC9;
@@ -46,24 +48,44 @@ p {
     position:absolute;
     margin-top: 6%;
     padding:5px;
+
 }
 p:nth-child(1) {
-    border-color:green;
     top:0;
-    left:0;    
+    left:0;   
 }
 p:nth-child(2) {
-    border-color:red;
     top:0;
     right:0;
 }
 p:nth-child(3) {
-    border-color:yellow;
     bottom:0;
-    left:0;
+    left:15px;
 }
 p:nth-child(4) {
-    border-color:pink;
     bottom:0;
+    right:15px;
+}
+img {
+    position:absolute;
+    margin-top: -45%;
+    padding:5px;
+    margin-left: 30px;
+
+}
+img:nth-child(1) {
+    top:0;
+    left:0;   
+}
+img:nth-child(2) {
+    top:0;
+    right:0;
+}
+img:nth-child(3) {
+    bottom:130%;
+    left:0;
+}
+img:nth-child(4) {
+    bottom:130%;
     right:0;
 }
