@@ -1,0 +1,42 @@
+html{
+   background-color: #5A0303; 
+}
+h1{
+    color:#EADFC9;
+    border:2px solid #EADFC9;
+    background-color:#1C1515;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #020202; 
+    text-align: center;
+    padding: 0px 0px;
+}
+.subtitle{
+    font-size:50px;
+    margin-left: 30%; 
+    margin-right:30%;
+    border-radius:97px;
+}
+.welcome{
+    font-size: 80px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    border-radius: 97px;
+}
+header {
+    background-image: url(../img/banner.png);
+   background-size: cover;
+   margin: 0px;
+   padding: 1.02%;
+}
+body{
+    color:white;
+}
+ul{
+    list-style-type: none
+}
+
+li {
+  padding: 20px;
+  font-size: 20px;
+  color: #B1F5DC; 
+}
