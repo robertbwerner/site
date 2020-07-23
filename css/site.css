@@ -110,3 +110,7 @@ ul{
     color: yellow;
     list-style-type: none;
 }
+a{
+    text-decoration: none;
+    color: #B1F5DC
+}
