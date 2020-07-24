@@ -1,0 +1,36 @@
+html{
+   background-color: #5A0303; 
+   background-size: 100%
+   position: relative;
+   overflow-y: hidden;
+   overflow-x: hidden; //horizontal
+}
+h1{
+    font-size: 50px;
+    color:#B1F5DC;
+    display: inline-grid; 
+    background: linear-gradient(#B21E1E, #751414);
+    padding:7px;
+     -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #707070; 
+    border-radius:10px;
+    margin:40px;}
+img{
+    float: right;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-right: 140px;
+    max-width: 25%;
+}
+p{
+    color:#B1F5DC;
+     -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #707070; 
+    /*font-size: 20px;*/
+    padding: 3px;
+    margin: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-indent: 50px;
+
+}
