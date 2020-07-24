@@ -29,13 +29,15 @@ h1{
     border-radius: 97px;
 }
 header {
-    display: block;
+    display: inline-block;
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
-   background-size: 100%;
+   background-size: cover;
    margin: 0px;
    padding: 1.02%;
    border:6px solid  #020202;
+   height: 50%;
+   width: 100%;
 
 
 }
