@@ -3,9 +3,6 @@
 html{
    background-color: #5A0303; 
    background-size: 100%
-
-   
-
 }
 h1{
     color:#EADFC9;
@@ -35,12 +32,13 @@ header {
    margin: 0px;
    padding: 1.02%;
    border:6px solid  #020202;
+
 }
 .scale{
     display: block;
     position: absolute;
     height: 50%
-    
+
 }
 body{
     color:#B1F5DC;
@@ -100,13 +98,18 @@ p:nth-child(4) {
     display: block;
     position: absolute;
     left: 35px;
-    bottom: 131%;
+    bottom: 135%;
 }
 #bl{
     display: block;
     position:absolute;
     left: 94%;
-    bottom: 131%
+    bottom: 135%
+}
+body{
+    background-image: url(../img/orb.png);
+    background-repeat: no-repeat;
+    background-position: 50% 55%;
 }
 /*img {
     display block
