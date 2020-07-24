@@ -2,8 +2,8 @@ html{
    background-color: #5A0303; 
    background-size: 100%
    position: relative;
-   overflow-y: hidden;
-   overflow-x: hidden; //horizontal
+   height: 100%;
+   width: 100%;
 }
 h1{
     font-size: 50px;

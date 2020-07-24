@@ -1,9 +1,10 @@
+
+
 html{
    background-color: #5A0303; 
    background-size: 100%
    position: relative;
-   overflow-y: hidden;
-   overflow-x: hidden; //horizontal
+
    
 
 }
@@ -15,6 +16,7 @@ h1{
     -webkit-text-stroke-color: #020202; 
     text-align: center;
     padding: 0px 0px;
+
 }
 .subtitle{
     font-size:50px;
@@ -38,6 +40,14 @@ header {
 body{
     color:#B1F5DC;
     font-size: 35px;
+}
+.resize{
+    width: 5%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: #B1F5DC
 }
 #parent {
     position:relative;
@@ -69,9 +79,34 @@ p:nth-child(4) {
     bottom:0;
     right:-10px;
 }
-img {
+#tr{
+    display: block;
+    position: absolute;
+    left:35px;
+    bottom: 190%;
+}
+#tl{
+    display: block;
+    position: absolute;
+    left: 94%;
+    bottom: 190%;
+}
+#br{
+    display: block;
+    position: absolute;
+    left: 35px;
+    bottom: 131%;
+}
+#bl{
+    display: block;
+    position: relative;
+    left: 94%;
+    bottom: 43%
+}
+/*img {
+    display block
     position:absolute;
-    margin-top: -40%;
+    margin-top: -10%;
     padding:5px;
     margin-left: 30px;
 
@@ -97,16 +132,14 @@ img:nth-child(4) {
     width: 5%;
     height: auto;
 }
-footer img{
+img{
+   display: block;
     position:relative;
     height:auto;
     width:25%;
     display: block;
     margin-left: 36%;
     margin-right: auto;
-    margin-top: -720px;
-}
-a{
-    text-decoration: none;
-    color: #B1F5DC
-}
+    margin-top: 
+ 
+}*/
