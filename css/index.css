@@ -3,7 +3,6 @@
 html{
    background-color: #5A0303; 
    background-size: 100%
-   position: relative;
 
    
 
@@ -16,6 +15,7 @@ h1{
     -webkit-text-stroke-color: #020202; 
     text-align: center;
     padding: 0px 0px;
+    position: relative;
 
 }
 .subtitle{
@@ -83,13 +83,13 @@ p:nth-child(4) {
     display: block;
     position: absolute;
     left:35px;
-    bottom: 190%;
+    bottom: 193%;
 }
 #tl{
     display: block;
     position: absolute;
     left: 94%;
-    bottom: 190%;
+    bottom: 193%;
 }
 #br{
     display: block;
@@ -99,9 +99,9 @@ p:nth-child(4) {
 }
 #bl{
     display: block;
-    position: relative;
+    position:absolute;
     left: 94%;
-    bottom: 43%
+    bottom: 131%
 }
 /*img {
     display block
