@@ -3,6 +3,9 @@
 html{
    background-color: #5A0303; 
    background-size: 100%
+    overflow-x: hidden; //horizontal 
+    overflow-y: hidden;
+  
 }
 h1{
     color:#EADFC9;
@@ -42,7 +45,7 @@ header {
 }
 body{
     color:#B1F5DC;
-    font-size: 35px;
+    font-size: 35px; 
 }
 .resize{
     width: 5%;
