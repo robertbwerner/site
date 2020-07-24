@@ -39,18 +39,13 @@ header {
 
 
 }
-.scale{
-    display: block;
-    position: absolute;
-    height: 50%
 
-}
 body{
     color:#B1F5DC;
     font-size: 35px;
     overflow-x: hidden;
     display: inline-block;
-    width: 100%;
+    width: 98%;
     height: 100%;
     background-image: url(../img/orb.png);
     background-repeat: no-repeat;
