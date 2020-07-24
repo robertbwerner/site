@@ -32,7 +32,7 @@ header {
     display: block;
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
-   background-size: cover;
+   background-size: 100%;
    margin: 0px;
    padding: 1.02%;
    border:6px solid  #020202;
