@@ -49,10 +49,19 @@ body{
     display: inline-block;
     width: 100%;
     height: auto;
-    background-image: url(../img/orb.png);
+
+    /*background-image: url(../img/orb.png);
     background-repeat: no-repeat;
     background-position: 50% 54%;
-    background-size:  30%;
+    background-size:  30%;*/
+}
+.mask {
+    clip-path: circle(43%);
+    display: inline-block;
+    position: absolute;
+    left: 36%;
+    bottom: 2%;
+    z-index: -1;
 }
 .resize{
     width: 5%;
