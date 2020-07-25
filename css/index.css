@@ -1,6 +1,7 @@
 
 
 html{
+    overflow-x: hidden;
    background-color: #5A0303; 
    background-size: 100%;
    margin: 0;
