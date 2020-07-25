@@ -52,6 +52,7 @@ body{
     background-image: url(../img/orb.png);
     background-repeat: no-repeat;
     background-position: 50% 54%;
+    background-size:  30%;
 }
 .resize{
     width: 5%;
@@ -115,44 +116,3 @@ p:nth-child(4) {
     left: 94%;
     bottom: 135%
 }
-
-/*img {
-    display block
-    position:absolute;
-    margin-top: -10%;
-    padding:5px;
-    margin-left: 30px;
-
-}
-img:nth-child(1) {
-    top:0;
-    left:0;  
-
-}
-img:nth-child(2) {
-    top:0;
-    right:0;
-}
-img:nth-child(3) {
-    bottom:130%;
-    left:0;
-}
-img:nth-child(4) {
-    bottom:130%;
-    right:0;
-}
-.resize{
-    width: 5%;
-    height: auto;
-}
-img{
-   display: block;
-    position:relative;
-    height:auto;
-    width:25%;
-    display: block;
-    margin-left: 36%;
-    margin-right: auto;
-    margin-top: 
- 
-}*/
