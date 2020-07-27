@@ -60,7 +60,7 @@ body{
     background-size: 10%;
     background-position: top center;
     box-sizing: border-box;
-    border:2px solid #E6CB5D;
+    border:2px solid #CDE0FF;
     margin-bottom: 20px;
     display: inline-block;
     float:top left;
@@ -74,7 +74,7 @@ body{
     background-size: 10%;
     background-position: top center;
     box-sizing: border-box;
-    border:2px solid #E6CB5D;
+    border:2px solid #CDE0FF;
     float: right;
    } 
 .card3{
@@ -87,7 +87,7 @@ body{
     background-size: 10%;
     background-position: top center;
     box-sizing: border-box;
-     border:2px solid #E6CB5D;
+     border:2px solid #CDE0FF;
     display: inline-block;
     float: left;
    
@@ -103,7 +103,7 @@ body{
     background-size: 10%;
     background-position: top center;
     box-sizing: border-box;
-    border:2px solid #E6CB5D;
+    border:2px solid #CDE0FF;
     display: inline-block;
     float:  right;
 } 
