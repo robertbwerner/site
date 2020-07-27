@@ -19,6 +19,7 @@ h1{
     margin-left: 12.5%;
     margin-right: 12.5%;
     border-radius: 30px;
+    box-shadow: 0px 2px 2px #EADFC9;
     font-family: "Courier New", Courier, monospace
 }
 .subtitle{
@@ -26,6 +27,7 @@ h1{
     margin-left: 30%; 
     margin-right:30%;
     border-radius:30px;
+    box-shadow: 0px 2px 2px #EADFC9;
     font-family: "Courier New", Courier, monospace
 }
 header {
@@ -63,7 +65,8 @@ body{
     border:2px solid #CDE0FF;
     margin-bottom: 20px;
     display: inline-block;
-    float:top left;
+    float:left;
+    box-shadow: 3px 4px 2px #99252f;
    } 
 .card2{
     height: 110px;
@@ -76,6 +79,7 @@ body{
     box-sizing: border-box;
     border:2px solid #CDE0FF;
     float: right;
+    box-shadow: 3px 4px 2px #99252f;
    } 
 .card3{
     height: 110px;
@@ -90,6 +94,7 @@ body{
      border:2px solid #CDE0FF;
     display: inline-block;
     float: left;
+    box-shadow: 3px 4px 2px #99252f;
    
 
    } 
@@ -106,6 +111,7 @@ body{
     border:2px solid #CDE0FF;
     display: inline-block;
     float:  right;
+    box-shadow: 3px 4px 2px #99252f;
 } 
 
 .emblum {
