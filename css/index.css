@@ -16,16 +16,18 @@ h1{
 }
 .welcome{
     font-size: 4.2rem;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 30px;
     box-shadow: 0px 2px 2px #EADFC9;
+    padding: 10px;
     font-family: "Courier New", Courier, monospace
 }
 .subtitle{
     font-size:2.6rem;
-    margin-left: 30%; 
-    margin-right:30%;
+    margin-left: 25%; 
+    margin-right:25%;
+    padding: 10px;
     border-radius:30px;
     box-shadow: 0px 2px 2px #EADFC9;
     font-family: "Courier New", Courier, monospace
