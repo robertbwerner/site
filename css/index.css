@@ -62,7 +62,7 @@ body{
     border:2px solid #CDE0FF;
     margin-bottom: 20px;
     display: inline-block;
-    float:left;
+    float:top left;
     box-shadow: 3px 4px 2px #99252f;
    } 
 .card2{
@@ -113,7 +113,6 @@ body{
 
 .emblum {
     text-align: center;
-
 }
 a{
     color: #B1F5DC;
