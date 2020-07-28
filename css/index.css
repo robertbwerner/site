@@ -54,9 +54,9 @@ body{
     height: 110px;
     width: 400px;
     padding: 10px 0 0 80px;
-    background-image: url(../img/tree.png);
+    background-image: url(../img/trees.png);
     background-repeat: no-repeat;
-    background-size: 10%;
+    background-size: 15%;
     background-position: top center;
     box-sizing: border-box;
     border:2px solid #CDE0FF;
@@ -69,9 +69,9 @@ body{
     height: 110px;
     width: 400px;
     padding: 10px 0 0 90px;
-    background-image: url(../img/tree.png);
+    background-image: url(../img/trees.png);
     background-repeat: no-repeat;
-    background-size: 10%;
+    background-size: 15%;
     background-position: top center;
     box-sizing: border-box;
     border:2px solid #CDE0FF;
@@ -81,11 +81,11 @@ body{
 .card3{
     height: 110px;
     width: 400px;
-    padding: 10px 0 0 83px;
+    padding: 10px 0 0 85px;
     margin-bottom: 20px;
-    background-image: url(../img/tree.png);
+    background-image: url(../img/trees.png);
     background-repeat: no-repeat;
-    background-size: 10%;
+    background-size: 15%;
     background-position: top center;
     box-sizing: border-box;
      border:2px solid #CDE0FF;
@@ -100,9 +100,9 @@ body{
     width: 400px;
     padding: 10px 0 0 118px;
     margin-left: 161;
-    background-image: url(../img/tree.png);
+    background-image: url(../img/trees.png);
     background-repeat: no-repeat;
-    background-size: 10%;
+    background-size: 15%;
     background-position: top center;
     box-sizing: border-box;
     border:2px solid #CDE0FF;
