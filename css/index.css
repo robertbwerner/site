@@ -1,5 +1,6 @@
 html{
    background-color: #5A0303; 
+   background-image: url(../img/tile.png);
    margin: 0;
    padding: 0;
    height: 100%;
@@ -12,6 +13,32 @@ h1{
     -webkit-text-stroke-width: .081rem;
     -webkit-text-stroke-color: #020202; 
     padding: 0px 0px;
+}
+h2{
+    height: 60px;
+    width: auto; 
+    display: block;
+    text-align: center;
+    color:#EADFC9; 
+    box-sizing: border-box;
+    background-image: url(../img/down.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 2%;
+
+}
+a{
+    color: #B1F5DC;
+    text-decoration:none;
+}
+a:hover{
+    color: pink;
+}
+p {
+    display: inline-flex;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .welcome{
     text-align: center;
@@ -114,16 +141,17 @@ body{
 .emblum {
     text-align: center;
 }
-a{
-    color: #B1F5DC;
-    text-decoration:none;
-}
-a:hover{
-    color: pink;
-}
-p {
-    display: inline-flex;
-    font-size: 35px;
-    margin-left: 50px;
-    margin-right: 50px;
+
+.sign {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid white;
+    height:220px;
+    width: 260px;
+    margin-top: 15%;
+    position: absolute;
+    left: 140px;
+    background-image: url(../img/about-me.png);
+    background-size: cover;
+
 }
