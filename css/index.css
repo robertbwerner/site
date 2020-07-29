@@ -1,10 +1,17 @@
 html{
-   background-color: #5A0303; 
+    /*background-color: #5A0303; this is the color of the img*/
    background-image: url(../img/tile.png);
    margin: 0;
    padding: 0;
-   overflow: visible;
+  height: 100%;
+  width: 100%;
   }
+  body{
+    display: block;
+    font-family: 'Ranchers', cursive;
+    text-shadow: 
+    overflow-x: hidden;
+    }
 h1{
     color:#EADFC9;
     border:2px solid #EADFC9;
@@ -40,12 +47,27 @@ h3 {
     margin-right: 50px;
 }
 h4{
+font-family: "Courier New", Courier, monospace;
+font-size:3rem;
+}
+h5{
     font-family: 'Monoton', cursive;
     font-size: 3rem;
+}
 }
 p{
     font-family: "Times New Roman", Times, serif;
     font-size: 1.3rem;
+}
+
+header {
+    display: block;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border:6px solid  #020202;
+   width: 99%;
 }
 .welcome{
     text-align: center;
@@ -67,22 +89,7 @@ p{
     box-shadow: 0px 2px 2px #EADFC9;
     font-family: "Courier New", Courier, monospace
 }
-header {
-    display: block;
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   border:6px solid  #020202;
-}
 
-body{
-    display: block;
-    font-family: 'Ranchers', cursive;
-    text-shadow: 
-    width: 100%;
-    height: 100%; 
-    }
     
 .card1{
     height: 110px;
@@ -149,33 +156,67 @@ body{
 .emblum {
     text-align: center;
 }
-
+.pg-break{
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    background-image: url(../img/bird-left.png) ;
+    background-repeat: repeat-x;
+}
+.about-me{
+    background-image: linear-gradient(#5A0303, #CC5959);
+    padding-bottom: 5%;
+    width:100%;
+}
 .sign {
-    display: flex;
+    display: inline-flex;
     box-sizing: border-box;
     height:220px;
     width: 260px;
-    margin-top: 15%;
-    margin-bottom: 5%;
+    margin-top: 5%;
     position: relative;
     left: 140px;
     background-image: url(../img/about-me.png);
     background-size: cover;
+    margin-top: 2%;
 
+}
+
+ .title{
+    position: relative;
+    float:right;
+    margin:6.8% 10% 2% 10%;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    border:2px solid  #EADFC9;
+    text-align: center;
+    color:#EADFC9;
+    -webkit-text-stroke-width: .2rem;
+    -webkit-text-stroke-color: #1F1F1F; 
+    padding: 1%;
 }
 .bio{
-    display: flex;
-    width:auto;
-    height: 800px;
-    margin: 0 25% 0 25%;
-    background-color: #DCDDD1;
+
+    display: inline-block;
+    background-color: FloralWhite;
     background-image: url(../img/paper-texture.png);
     background-repeat: repeat-y;
-    background-size: 800px 3300px;
+    background-size: 100% 3300px;
     background-position: center;
+    font-family: "times new Roman", times, monospace;
+    font-size: 1.2rem;
+    width:100%;
+    height: 200%;
+    margin-top: 30px;
+    overflow-x: hidden;
+    text-align: center;
 
+    
 }
-.title{
-    position: relative;
-
+.portrait {
+    overflow: hidden;
+    float: right;
+    padding: 20px 10px 20px 20px;
 }
