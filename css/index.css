@@ -3,8 +3,7 @@ html{
    background-image: url(../img/tile.png);
    margin: 0;
    padding: 0;
-   height: 100%;
-   width:100%;
+   overflow: visible;
   }
 h1{
     color:#EADFC9;
@@ -34,11 +33,19 @@ a{
 a:hover{
     color: pink;
 }
-p {
+h3 {
     display: inline-flex;
-    font-size: 35px;
+    font-size: 2.2rem;
     margin-left: 50px;
     margin-right: 50px;
+}
+h4{
+    font-family: 'Monoton', cursive;
+    font-size: 3rem;
+}
+p{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.3rem;
 }
 .welcome{
     text-align: center;
@@ -127,6 +134,7 @@ body{
     width: 400px;
     padding: 10px 0 0 118px;
     margin-left: 161;
+    margin-bottom: 20px;
     background-image: url(../img/trees.png);
     background-repeat: no-repeat;
     background-size: 15%;
@@ -143,15 +151,31 @@ body{
 }
 
 .sign {
-    display: inline-block;
+    display: flex;
     box-sizing: border-box;
-    border: 2px solid white;
     height:220px;
     width: 260px;
     margin-top: 15%;
-    position: absolute;
+    margin-bottom: 5%;
+    position: relative;
     left: 140px;
     background-image: url(../img/about-me.png);
     background-size: cover;
+
+}
+.bio{
+    display: flex;
+    width:auto;
+    height: 800px;
+    margin: 0 25% 0 25%;
+    background-color: #DCDDD1;
+    background-image: url(../img/paper-texture.png);
+    background-repeat: repeat-y;
+    background-size: 800px 3300px;
+    background-position: center;
+
+}
+.title{
+    position: relative;
 
 }
