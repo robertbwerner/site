@@ -2,6 +2,7 @@
 *{ font-weight: 300;
    padding: 0;
    margin: 0;
+   box-sizing: border-box;
   }
 html{    background-color: #5A0303; 
 
@@ -172,13 +173,13 @@ header {
 
 .heading{
     height: 190px;
+    margin-bottom: 95px;
+    border: 2px solid white;
 }
 .sign {
-    display: inline-flex;
-    box-sizing: border-box;
+    
     height:110px;
     width: 130px;
-    margin-top: 5%;
     position: relative;
     float:right;
     right: 5%;
@@ -217,23 +218,8 @@ header {
 
 .about-me img{
     width: 360px;
+    margin: 5px;
 }
-/*.bio{
-
-    display: inline-block;
-    background-color: FloralWhite;
-    background-image: url(../img/paper-texture.png);
-    background-repeat: repeat-y;
-    background-size: 100% 3300px;
-    background-position: center;
-    font-family: "times new Roman", times, monospace;
-    font-size: 1.2rem;
-    height: 400%;
-    margin-top: 30px;
-    overflow-x: hidden;
-    text-align: center;
-    box-sizing: border-box;
-}*/
 .portrait {
     overflow: hidden;
     float: right;
@@ -241,10 +227,21 @@ header {
      box-sizing: border-box;
 }
 .rbw{
-    display: inline-block;
+    box-sizing: border-box;
     height: 272px;
     width: 100%;
     background-image: url(../img/rbw.png) ;
     background-size: cover;
+    background-color: #75204b;
     
 }
+.p-sign{
+    height:110px;
+    width: 146px;
+    position: relative;
+    float:right;
+    right: 5%;
+    background-image: url(../img/portfolio.png);
+    background-size: cover;
+    margin-top: 2%;
+   }
