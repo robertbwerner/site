@@ -251,7 +251,7 @@ header {
     margin-top: 2%;
    }
    .button{
-    display: inline-flex;
+    display: inline-block;
     font-family: 'Monoton', cursive;
     font-size:2.3rem;
     color: #3B5F74;
@@ -274,7 +274,7 @@ header {
     border: 2px solid white;
 }
 .viewmore{
-    display: inline-flex;
+    display: inline-block;
     font-family: 'Monoton', cursive;
     font-size:2.3rem;
     background: #B9CBA2;
