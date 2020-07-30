@@ -1,6 +1,5 @@
 html{
-    /*background-color: #5A0303; this is the color of the img*/
-   margin: 0px;
+    background-color: #5A0303; 
    padding: 0;
   height: 100%;
   width: 100%;
@@ -214,8 +213,6 @@ header {
     overflow-x: hidden;
     text-align: center;
     box-sizing: border-box;
-    margin-right: 5%;
-    margin-left: 5%;
 }
 .portrait {
     overflow: hidden;
