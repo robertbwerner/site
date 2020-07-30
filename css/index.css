@@ -238,9 +238,7 @@ header {
     
 }
 .p-heading{
-        height: 250px;
         margin-bottom: 5px;
-        
 }
 .p-sign{
     height:110px;
@@ -261,20 +259,19 @@ header {
     border-radius: 20px;
     padding: 20px;
     position: relative;
-    top: 135px;
-    left: 37%;
+    margin: 2% 25% 2% 38%;
    }
 .vine img{
-    width: 800px;
-    margin: 5px;
+    width: 55%;
    position: relative;
-   top: 75px;
-   left: 20%;
-  
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .box{
-    height: 1745px;
+    height: auto;
+    border: 2px solid white;
 }
 .viewmore{
     display: inline-flex;
@@ -284,8 +281,7 @@ header {
     border-radius: 20px;
     padding: 20px;
     position: relative;
-    top: 135px;
-    left: 40%;
+    margin: 2% auto 2% 41%;
     color: #3B5F74;
 }
 .viewmore a{
@@ -294,5 +290,4 @@ header {
 .viewmore a:hover {
     color: #a8dadc;
     background-color: #FF9AA1;
-    margin: 20px;
 }
