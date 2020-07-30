@@ -176,7 +176,7 @@ header {
     width: 260px;
     margin-top: 5%;
     position: relative;
-    left: 10%;
+    left: 5%;
     background-image: url(../img/about-me.png);
     background-size: cover;
     margin-top: 2%;
@@ -184,7 +184,7 @@ header {
  .title{
     position: relative;
     float:right;
-    margin:6.8% 10% 2% 10%;
+    margin:6.8% 5% 2% 5%;
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,8 +214,8 @@ header {
     overflow-x: hidden;
     text-align: center;
     box-sizing: border-box;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 .portrait {
     overflow: hidden;
