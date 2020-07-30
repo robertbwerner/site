@@ -225,6 +225,9 @@ header {
     padding: 20px 10px 20px 20px;
      box-sizing: border-box;
 }
+.portfolio{
+    background: linear-gradient(#5A0303 33%,#F6BEAF);
+}
 .rbw{
     box-sizing: border-box;
     height: 272px;
@@ -235,8 +238,9 @@ header {
     
 }
 .p-heading{
-        height: 190px;
+        height: 250px;
         margin-bottom: 5px;
+        
 }
 .p-sign{
     height:110px;
@@ -257,7 +261,7 @@ header {
     border-radius: 20px;
     padding: 20px;
     position: relative;
-    top: 83%;
+    top: 135px;
     left: 37%;
    }
 .vine img{
@@ -266,6 +270,29 @@ header {
    position: relative;
    top: 75px;
    left: 20%;
+  
 
-
+}
+.box{
+    height: 1745px;
+}
+.viewmore{
+    display: inline-flex;
+    font-family: 'Monoton', cursive;
+    font-size:2.3rem;
+    background: #B9CBA2;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    top: 135px;
+    left: 40%;
+    color: #3B5F74;
+}
+.viewmore a{
+     color: #3B5F74;
+}
+.viewmore a:hover {
+    color: #a8dadc;
+    background-color: #FF9AA1;
+    margin: 20px;
 }
