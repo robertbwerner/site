@@ -234,29 +234,32 @@ header {
 }
 .p-heading{
         margin-bottom: 5px;
-        border: 2px solid white;
-        height: 140px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); ;
+
 }
 .p-sign{
     height:110px;
     width: 146px;
-    position: relative;
-    float:right;
-    right: 5%;
     background-image: url(../img/portfolio.png);
     background-size: cover;
-    margin-top: 2%;
+    margin-top: 8%;
+    margin-left: 10%;
+    border: 2px solid white;
    }
    .button{
-    display: inline-block;
     font-family: 'Monoton', cursive;
     font-size:2.3rem;
+    text-align: center;
     color: #3B5F74;
     background: #B9CBA2;
     border-radius: 20px;
     padding: 2%;
-    margin: 2%;
-    vertical-align: bottom;
+    margin: 10%;
+    margin-top: 31%;
+    margin-bottom: 0%;
+    border: 2px solid white;
 
    }
 .vine img{
