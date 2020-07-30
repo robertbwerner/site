@@ -1,13 +1,12 @@
-html{
+
+*{
     background-color: #5A0303; 
    padding: 0;
-  height: 100%;
-  width: 100%;
+   margin: 0;
   }
+
   body{
-    display: block;
     font-family: 'Ranchers', cursive;
-    text-shadow: 
     overflow-x: hidden;
     }
 
@@ -17,7 +16,6 @@ h1{
     background-color:#1C1515;
     -webkit-text-stroke-width: .081rem;
     -webkit-text-stroke-color: #020202; 
-    padding: 0px 0px;
 }
 h2{
     height: 60px;
@@ -66,16 +64,18 @@ header {
    background-size: cover;
    background-position: center;
    border:6px solid  #020202;
-   width: 99%;
+   padding: 30px;
+   margin-bottom: 20px;
 }
 .welcome{
     text-align: center;
     font-size: 4.2rem;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 14px;
     border-radius: 30px;
     box-shadow: 0px 2px 2px #EADFC9;
-    padding: 10px;
+    padding: 25px;
     font-family: "Courier New", Courier, monospace
 }
 .subtitle{
@@ -83,6 +83,7 @@ header {
     font-size:2.6rem;
     margin-left: 25%; 
     margin-right:25%;
+    margin-bottom: 5px;
     padding: 10px;
     border-radius:30px;
     box-shadow: 0px 2px 2px #EADFC9;
