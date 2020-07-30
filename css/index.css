@@ -174,7 +174,6 @@ header {
 .heading{
     height: 190px;
     margin-bottom: 95px;
-border: 2px solid white;
 }
 .sign {
     
@@ -235,6 +234,10 @@ border: 2px solid white;
     background-color: #75204b;
     
 }
+.p-heading{
+        height: 190px;
+        margin-bottom: 5px;
+}
 .p-sign{
     height:110px;
     width: 146px;
@@ -246,7 +249,7 @@ border: 2px solid white;
     margin-top: 2%;
    }
    .button{
-    display: inline-block;
+    display: inline-flex;
     font-family: 'Monoton', cursive;
     font-size:2.3rem;
     color: #3B5F74;
@@ -254,7 +257,15 @@ border: 2px solid white;
     border-radius: 20px;
     padding: 20px;
     position: relative;
-    top: 17%;
+    top: 83%;
     left: 37%;
    }
+.vine img{
+    width: 800px;
+    margin: 5px;
+   position: relative;
+   top: 75px;
+   left: 20%;
 
+
+}
