@@ -167,8 +167,7 @@ header {
 }
 .about-me{
     background: linear-gradient(#5A0303, #CC5959);
-    padding-bottom: 5%;
-    width:100vw;
+    padding-bottom: 5%
 }
 .sign {
     display: inline-flex;
