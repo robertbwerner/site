@@ -1,12 +1,12 @@
 html{
     /*background-color: #5A0303; this is the color of the img*/
-   background-image: url(../img/tile.png);
    margin: 0;
    padding: 0;
   height: 100%;
   width: 100%;
   }
   body{
+    background-image: url(../img/tile.png);
     display: block;
     font-family: 'Ranchers', cursive;
     text-shadow: 
