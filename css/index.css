@@ -12,6 +12,7 @@ html{
     text-shadow: 
     overflow-x: hidden;
     }
+
 h1{
     color:#EADFC9;
     border:2px solid #EADFC9;
@@ -195,6 +196,9 @@ header {
     -webkit-text-stroke-color: #1F1F1F; 
     padding: 1%;
 }
+.about-me img{
+    width: 360px;
+}
 .bio{
 
     display: inline-block;
@@ -205,13 +209,13 @@ header {
     background-position: center;
     font-family: "times new Roman", times, monospace;
     font-size: 1.2rem;
-    width:100%;
-    height: 200%;
+    height: 400%;
     margin-top: 30px;
     overflow-x: hidden;
     text-align: center;
     box-sizing: border-box;
-    
+    margin-right: 10%;
+    margin-left: 10%;
 }
 .portrait {
     overflow: hidden;
@@ -221,8 +225,9 @@ header {
 }
 .rbw{
     display: inline-block;
-    height: 219px;
+    height: 272px;
     width: 100%;
     background-image: url(../img/rbw.png) ;
-    background-repeat: repeat-x;
+    background-size: cover;
+    
 }
