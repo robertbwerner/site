@@ -9,8 +9,7 @@ html{
 }
 body{
     font-family: 'Ranchers', cursive;
-    overflow-x: hidden;
-    }
+}
 
 h1{
     color:#EADFC9;
@@ -19,6 +18,7 @@ h1{
     -webkit-text-stroke-width: .081rem;
     -webkit-text-stroke-color: #020202; 
     font-weight: 600;
+    overflow-x: hidden;
 }
 h2{
     height: 60px;
@@ -41,9 +41,7 @@ a:hover{
     color: pink;
 }
 h3 {
-    display: inline-flex;
     font-size: 2.2rem;
-    margin-left: 50px;
 }
 h4{
     font-family: "Courier New", Courier, monospace;
@@ -65,7 +63,7 @@ header {
 }
 .welcome{
     text-align: center;
-    font-size: 4.2rem;
+    font-size: 4.2rem; /*4.2rem on desktop, 3rem on phone*/
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 14px;
@@ -74,9 +72,20 @@ header {
     padding: 25px 30px 25px 30px;
     font-family: "Courier New", Courier, monospace
 }
+                                                               /* @media screen and (min-width: 601px) {
+                                                                  .welcome {
+                                                                    font-size: 4.2rem;
+                                                                  }
+                                                                }
+
+                                                                @media screen and (max-width: 600px) {
+                                                                  .welcome {
+                                                                    font-size: 3rem;
+                                                                  }*/
+
 .subtitle{
     text-align: center;
-    font-size:2.6rem;
+    font-size:2.6rem; /*2.6rem on desktop, 2rem on phone*/
     margin-left: 15%; 
     margin-right:15%;
     margin-bottom: 5px;
@@ -85,109 +94,83 @@ header {
     box-shadow: 0px 2px 2px #EADFC9;
     font-family: "Courier New", Courier, monospace
 }
+
 .scroll{
     margin-bottom: 5px;
 }
 
-.card1{
+.cards {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.25fr 1fr 0.25fr 0.25fr;
+    height: 100%;
+}
 
-    height: 110px;
-    width: 400px;
-    padding: 50px 0 0 80px;
+.card1, .card2, .card3, .card4{ 
+    text-align: center;
+    padding-top: 55px; 
     background-image: url(../img/trees.png);
     background-repeat: no-repeat;
-    background-size: 15%;
+    background-size: 20%;
     background-position: top center;
-    box-sizing: border-box;
     border:2px solid #CDE0FF;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    display: inline-block;
-    float:top left;
     box-shadow: 3px 4px 2px #99252f;
+    margin: 2rem;
    } 
+
+.card1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+  } 
 .card2{
-    height: 110px;
-    width: 400px;
-    padding: 50px 0 0 90px;
-    background-image: url(../img/trees.png);
-    background-repeat: no-repeat;
-    background-size: 15%;
-    background-position: top center;
-    box-sizing: border-box;
-    border:2px solid #CDE0FF;
-    float: right;
-    box-shadow: 3px 4px 2px #99252f;
+    grid-column: 3/4;
+    grid-row: 1/2;
    } 
 .card3{
-    height: 110px;
-    width: 400px;
-    padding: 50px 0 0 85px;
-    margin-bottom: 20px;
-    background-image: url(../img/trees.png);
-    background-repeat: no-repeat;
-    background-size: 15%;
-    background-position: top center;
-    box-sizing: border-box;
-     border:2px solid #CDE0FF;
-    display: inline-block;
-    margin-top: 5px;
-    float: left;
-    box-shadow: 3px 4px 2px #99252f;
+    grid-column: 1/2;
+    grid-row: 3/4;
    } 
  .card4{
-    height: 110px;
-    width: 400px;
-    padding: 50px 0 0 118px;
-    margin-left: 161;
-    margin-bottom: 20px;
-    background-image: url(../img/trees.png);
-    background-repeat: no-repeat;
-    background-size: 15%;
-    background-position: top center;
-    box-sizing: border-box;
-    border:2px solid #CDE0FF;
-    display: inline-block;
-    float:  right;
-    box-shadow: 3px 4px 2px #99252f;
+    grid-column: 3/4;
+    grid-row: 3/4;
 } 
 
 .emblum {
+    grid-column:2/3;
+    grid-row: 2/3;
     text-align: center;
 }
 .pg-break{
-    display: inline-block;
+    grid-column: 1/4;
+    grid-row: 4/5;
     height: 100px;
-    width: 100%;
     background-image: url(../img/bird-left.png) ;
-    background-repeat: repeat-x;
-    margin-top: 5%;
-    margin-bottom: 50px;
+    margin: 4% 0;
 }
 .about-me{
+    margin-top: 2%;
     background: linear-gradient(#5A0303, #CC5959);
     padding-bottom: 1%;
 }
 
 .heading{
-    height: 300px;
-    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-rows: 1.75fr 1fr;
+    margin: 0% 2% 3% 2%;
 }
 .sign {
-    
+    grid-column: 1/2;
     height:110px;
     width: 130px;
-    position: relative;
-    float:right;
-    right: 5%;
     background-image: url(../img/about-me.png);
     background-size: cover;
     margin-top: 4.5%;
 }
  .title{
-
-    float:left;
-    margin:4.5% 5% 2% 5%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
     background-image: url(../img/background.png);
     background-size: cover;
     border:2px solid  #EADFC9;
@@ -208,16 +191,16 @@ header {
     background-position: center;
     margin: 20px 10% 5px 10%;
     line-height: 35px;
-    padding: 1%;
+    padding: 2%;
 }
 .about-me img{
     width: 360px;
+    min-width: 300px;
     margin: 5px;
 }
 .portrait {
     overflow: hidden;
     float: right;
-    box-sizing: border-box;
     margin: 1%;
 }
 .portfolio{
@@ -236,40 +219,77 @@ header {
         margin-bottom: 5px;
         height: auto;
         display: grid;
-        grid-template-columns: repeat(1, 1fr 2fr); ;
+        grid-template-columns: 0.5fr 1fr 0.5fr;
+        grid-template-rows: 0.25fr 1fr;
 
 }
 .p-sign{
+    grid-column: 1/2;
     height:110px;
     width: 146px;
     background-image: url(../img/portfolio.png);
     background-size: cover;
     margin-top: 8%;
     margin-left: 10%;
-    border: 2px solid white;
    }
-   .button{
+
+.button{
+    grid-column: 2/3;
+    grid-row: 2/3;
     font-family: 'Monoton', cursive;
     font-size:2.3rem;
     text-align: center;
     color: #3B5F74;
     background: #B9CBA2;
     border-radius: 20px;
-    padding: 2% 5% 2% 5%;
-    margin: 5% 44% 1% 10%;
-    border: 2px solid white;
-
+    padding: 2% 5%;
+    margin: 4% 10%;
    }
-.vine img{
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+}
+
+/*.vine img{
     width: 55%;
-   position: relative;
-   display: block;
+    position: relative;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+}*/
+.vine{
+    background-image: url(../img/vine.png);
+    height: 1285px;
+    width: 700px;
+    background-size: cover;
 }
-.box{
-    height: auto;
+ .selected1 {
+    height: 200px;
+    width: 200px;
+    background-image: url(../img/mt.png);
+    background-size: cover;
 }
+.selected2 {
+    height: 200px;
+    width: 200px;
+    background-image: url(../img/mt.png);
+    background-size: cover;
+}
+.selected3 {
+    height: 200px;
+    width: 200px;
+    background-image: url(../img/mt.png);
+    background-size: cover;
+}
+.selected4 {
+    height: 200px;
+    width: 200px;
+    background-image: url(../img/mt.png);
+    background-size: cover;
+}
+
 .viewmore{
     display: inline-block;
     font-family: 'Monoton', cursive;
@@ -278,7 +298,6 @@ header {
     border-radius: 20px;
     padding: 20px;
     position: relative;
-    margin: 2% auto 2% 41%;
     color: #3B5F74;
 }
 .viewmore a{
