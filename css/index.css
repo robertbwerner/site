@@ -37,7 +37,7 @@ a{
     color: #B1F5DC;
     text-decoration:none;
 }
-a:hover{
+a:hover, a:focus{
     color: pink;
 }
 h3 {
@@ -300,7 +300,6 @@ header {
 }
 
 .viewmore, .contact, .blog {
-    display: inline-block;
     font-family: 'Monoton', cursive;
     font-size:2.3rem;
     background: #B9CBA2;
@@ -313,7 +312,7 @@ header {
 .viewmore a, .contact a, .blog a {
      color: #3B5F74;
 }
-.viewmore a:hover, .contact a:hover, .blog a:hover {
+.viewmore a:hover, .contact a:hover, .blog a:hover, .viewmore a:focus, .contact a:focus, .blog a:focus {
     color: #a8dadc;
     background-color: #FF9AA1;
 }
