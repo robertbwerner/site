@@ -115,7 +115,7 @@ header {
     background-position: top center;
     border:2px solid #CDE0FF;
     box-shadow: 3px 4px 2px #99252f;
-    margin: 2rem;
+    margin: 2em;
    } 
 
 .card1{
@@ -149,7 +149,7 @@ header {
 }
 .about-me{
     margin-top: 2%;
-    background: linear-gradient(#5A0303, #CC5959);
+    background: linear-gradient(#5A0303, crimson);
     padding-bottom: 1%;
 }
 
@@ -195,8 +195,8 @@ header {
 }
 .about-me img{
     width: 360px;
-    min-width: 300px;
     margin: 5px;
+    display: block;
 }
 .portrait {
     overflow: hidden;
@@ -248,49 +248,58 @@ header {
 
 .box{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 
-/*.vine img{
-    width: 55%;
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}*/
 .vine{
+    grid-column:10/14 ;
+    grid-row:1/13 ;
     background-image: url(../img/vine.png);
-    height: 1285px;
-    width: 700px;
+    height: 1377px;
+    width: 750px;
     background-size: cover;
-}
+    }
+
  .selected1 {
+    grid-column: 9/11;
+    grid-row: 2/4;
     height: 200px;
     width: 200px;
     background-image: url(../img/mt.png);
     background-size: cover;
 }
 .selected2 {
+    grid-column: 9/11;
+    grid-row:9/11 ;
     height: 200px;
     width: 200px;
     background-image: url(../img/mt.png);
     background-size: cover;
 }
 .selected3 {
+    grid-column:25/27 ;
+    grid-row:6/8 ;
     height: 200px;
     width: 200px;
     background-image: url(../img/mt.png);
     background-size: cover;
 }
 .selected4 {
+    grid-column:25/27 ;
+    grid-row: 13/15;
     height: 200px;
     width: 200px;
     background-image: url(../img/mt.png);
     background-size: cover;
 }
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
 
-.viewmore{
+.viewmore, .contact, .blog {
     display: inline-block;
     font-family: 'Monoton', cursive;
     font-size:2.3rem;
@@ -299,11 +308,28 @@ header {
     padding: 20px;
     position: relative;
     color: #3B5F74;
+    text-align: center;
 }
-.viewmore a{
+.viewmore a, .contact a, .blog a {
      color: #3B5F74;
 }
-.viewmore a:hover {
+.viewmore a:hover, .contact a:hover, .blog a:hover {
     color: #a8dadc;
     background-color: #FF9AA1;
+}
+.viewmore{
+      grid-column: 2/3;
+}
+.contact{
+grid-column: 1/2;
+grid-row: 2/3;
+justify-self: end;
+}
+.blog{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-self: start;
+}
+footer{
+    color: white;
 }
