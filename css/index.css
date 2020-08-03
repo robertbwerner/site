@@ -457,8 +457,8 @@ margin: 2em;
 }
 .social img{
     box-shadow: 
-        -9px -9px 8px 3px rgba(255,255,255,0.1),
-        12px 12px 12px 0 rgba(0,0,0,0.4);
+        -9px -9px 8px 3px rgba(0,0,0,0.4),
+        12px 12px 12px 0 rgba(255,255,255,0.1);
 }
 
 
