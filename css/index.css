@@ -193,7 +193,7 @@ header {
     color: #3B5F74;
     background: #B9CBA2;
     border-radius: 20px;
-    padding: 2% 5%;
+    padding: 3% 5%;
     margin: 4%;
    }
 
@@ -327,7 +327,7 @@ footer{
 }
 .viewmore{
       grid-column: 2/3;
-      padding: 0;
+      padding: 4%;
       margin: 0;
 }
 .contact{
@@ -342,5 +342,6 @@ footer{
 }
 .contact, .blog {
     margin: 0;
+    width: 55%;
 }
 }
