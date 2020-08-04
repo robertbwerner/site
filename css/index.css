@@ -11,6 +11,9 @@ html{
 body{
     font-family: 'Ranchers', cursive;
 }
+footer{
+    margin-left: 1em;
+}
 
 h1{
     color:#EADFC9;
@@ -470,11 +473,40 @@ margin: 2em;
     font-family: "Courier New", Courier, monospace; 
     color: #FFF8BF;
 }
+.planetspin{
+    background-image: url(../img/planets.png);
+    height: 702px;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: bottom center;
+    -o-animation:spin 40s linear infinite;
+    -moz-animation:spin 40s linear infinite;
+    -ms-animation:spin 40s linear infinite;
+    -webkit-animation:spin 40s linear infinite;
+}
 
-
-
-
-
+@keyframes spin {
+    0% {
+        -o-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -o-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+    }
+    .overflow{
+        height: 250px;
+        overflow: hidden;
+        background-image: url(../img/space.png);
+        background-size:50%;
+        background-repeat: repeat-x;
+        margin:0;
+    }
 
 
 
