@@ -21,22 +21,21 @@
 
     <main>
             <section class="contact-form">
-                <form>
+                <div class="alert">Your message has been sent</div>
+                <form id="contactform">
                     <p>
                         <label> Name </label>
-                        <input type="text" name="name" placeholder="Justin Case">
+                        <input type="text" name="name" placeholder="Justin Case" id="name" required>
                     </p>
                     <p>
                         <label> Email Address</label>
-                        <input type="email" name="email" placeholder="your email">
+                        <input type="email" name="email" placeholder="your email" id="email" required>
                     </p>
                     <p>
                         <label> Message </label>
-                      <textarea name="message" rows="5" placeholder="message"></textarea>
+                      <textarea name="message" rows="5" id="message" placeholder="message"></textarea>
                     </p>
-                    <a href="mailto:robertwernerbiz@gmail.com? subject=Mail from website">
-                    <button>submit</button>
-                    </a>
+                    <button type="submit">submit</button>
                 </form>
             </section>
 
@@ -58,6 +57,10 @@
     <footer>
     <!--have the planets-->
     </footer>
+
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+<script src="main.js"></script>
 </body>
 
 
