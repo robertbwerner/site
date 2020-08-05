@@ -362,8 +362,10 @@ footer{
     start of contact//
 ///////////////////////*/
 .contact-page header{
+    padding: 0;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr auto;
 }
 .c-sign{
     height:110px;
@@ -375,6 +377,7 @@ footer{
 
 }
 .menu{
+    grid-column: 3/4;
     height:100%;
     width: 130px;
     margin-top: 7%;
@@ -386,6 +389,10 @@ footer{
 
 }
 .talk{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-size:2rem;
+    min-width: 140px;
     text-align: center;
     color: #FFF8BF;
     background: #620202;
@@ -395,6 +402,7 @@ footer{
         12px 12px 12px 0 rgba(0,0,0,0.4);
     padding: 10%;
     margin-top: 10%;
+    justify-self: center;
 }
 
 .contact-form button{
@@ -412,8 +420,8 @@ footer{
 }
 .contact-form{
     max-width: 900px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 5%;
+    margin-left: 5%;
     box-shadow: 
         -9px -9px 9px 0 rgba(255,255,255,0.07),
         12px 12px 12px 0 rgba(0,0,0,0.4);
@@ -455,8 +463,9 @@ margin: 2em;
 .social {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    margin: 8% 29% 1% 29%;
+    margin: 8% 1em;
 }
 .social img{
     box-shadow: 
@@ -467,32 +476,37 @@ margin: 2em;
     text-align: center;
     padding: 10px;
     background: salmon;
-    margin-bottom: 0 auto;
+    margin: 3% auto;
     display: none;
     font-size:2rem;
     font-family: "Courier New", Courier, monospace; 
     color: #FFF8BF;
 }
-.planetspin{
+.planetspin{ 
+    grid-column: 2/3;
+    display: inline-block;
     background-image: url(../img/planets.png);
-    height: 702px;
+    height: 15em;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 45%;
-    background-position: bottom center;
+    background-size: 85%;
     -o-animation:spin 40s linear infinite;
     -moz-animation:spin 40s linear infinite;
     -ms-animation:spin 40s linear infinite;
     -webkit-animation:spin 40s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+ 
 }
 
 @keyframes spin {
-    0% {
+    from {
         -o-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         -webkit-transform: rotate(0deg);
     }
-    100% {
+    to {
         -o-transform: rotate(360deg);
         -moz-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
@@ -500,19 +514,62 @@ margin: 2em;
     }
     }
     .overflow{
-        height: 250px;
+        height: 7em;
         overflow: hidden;
         background-image: url(../img/space.png);
-        background-size:50%;
+        background-size:contain;
         background-repeat: repeat-x;
-        margin:0;
+        margin: 0;
+    }
+    .parent{
+        width: 100%;
+        align-content: center;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
     }
 
+@media screen and (min-width: 660px) {
+    .contact-page header{
+        grid-template-rows: 1fr;
+    }
+   .c-sign{
+        grid-column: 1/2;
+   }
+   .menu{
+        grid-column: 3/4;
+        background-position: 100% 0;
+   }
+   .talk{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        font-size: 4rem;
+   }
 
-
-
-
-
+   .contact-form{
+    max-width: none;
+   }
+   .social{
+    margin: 8% 29% 1% 29%;
+   }
+   .overflow{
+    height: 15em;
+   }
+   .planetspin{
+    height:33em;
+    background-size:100%;
+   }
+   
+}
+@media screen and (max-width: 280px){
+    .planetspin{
+        height: 13em;
+    }
+}
+@media screen and (min-width: 1480px) {
+    .planetspin{
+        height: 43em;
+    }
+}
 
 
 
