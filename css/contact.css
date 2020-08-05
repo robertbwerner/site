@@ -565,9 +565,11 @@ margin: 2em;
         height: 13em;
     }
 }
-
-
-
+@media screen and (min-width: 1480px) {
+    .planetspin{
+        height: 43em;
+    }
+}
 
 
 
