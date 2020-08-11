@@ -386,6 +386,8 @@ footer{
     background-repeat:no-repeat;
     background-position: 100% 25%;
     justify-self: end;
+    background-color: pink;
+    border-bottom-left-radius: 45px;
 
 }
 .talk{
